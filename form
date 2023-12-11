@@ -1,0 +1,60 @@
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Application</h1>
+      <img src="https://www.pinclipart.com/picdir/big/66-666008_continuing-education-icon-creative-brain-idea-light-bulb.png" height="10%" width = "10%"></img>
+      <tr></tr>
+      <lable for="Firstname">FirstName: </lable>
+      <input type = "text"></input>
+      <br></br>
+      <br></br>
+      <lable for ="LastName">LastName: </lable>
+      <input type = "text"></input>
+      <br></br>
+      <br></br>
+      <lable for ="Date Of Birth">Date Of Birth: </lable>
+      <input type = "date"></input>
+      <br></br>
+      <br></br>
+      <lable for = "Age">Age: </lable>
+      <input type = "text"></input>
+      <br></br>
+      <br></br>
+      <lable for = "Gender">Gender: </lable>
+      <input type="radio"name="Gender"value="Male"></input><lable>Male</lable>
+      <input type="radio"name="Gender"value="Female"></input><lable>Female</lable>
+      <br></br>
+      <br></br>
+      <lable for = "Email">Email:</lable>
+      <input type = "text"></input>
+      <br></br>
+      <br></br>
+      <lable type = "Phone Number">Phone Number: </lable>
+      <input type = "text"></input>
+      <br></br>
+      <br></br>
+      <lable for = "hobbies">Hobbies: </lable>
+      <input type ="checkbox"></input><label>Drawing</label>
+      <input type ="checkbox"></input><label>Singing</label>
+      <input type ="checkbox"></input><label>Dancing</label>
+      <input type ="checkbox"></input><label>Others</label><input type = "text"></input>
+      <br></br>
+      <br></br>
+      <lable for ="Select your Country">Select Your Country: </lable>
+      <select name = "dropdown">
+        <option value ="Select">Select your country</option>
+        <option value ="Select">India</option>
+        <option value ="Select">United State</option>
+        <option value ="Select">China</option></select>
+        <br></br>
+        <br></br>
+        <lable for ="Comment">Comment</lable>
+        <input type = "text"></input>
+    </div>
+  );
+}
+
+export default App;
